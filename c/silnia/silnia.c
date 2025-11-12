@@ -1,23 +1,23 @@
 #include <stdio.h>
 
-long long int s = 1;
-int a = -1;
-
 int main()
 {
+    int a;
+    unsigned long long s = 1;
+
     do
     {
-        printf("Podaj liczbe naturalna mniejsza niz 20: ");
+        printf("Podaj liczbe naturalna nieujemna: ");
         fflush(stdin);
-    } while ((!scanf("%d", &a)) || (a < 0) || a > 20);
+    } while ((!scanf("%d", &a)) || a < 0 || a > 20);
 
     int i;
     for (i = 1; i <= a; i++)
     {
-        s = s * i;
+        s = i * s;
     }
 
-    printf("silnia = %lld", s);
+    printf("Silnia = %llu", s);
 
     return 0;
 }
