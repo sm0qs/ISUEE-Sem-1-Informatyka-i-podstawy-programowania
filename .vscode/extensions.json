@@ -1,4 +1,4 @@
 {
-  "recommendations": ["ms-vscode.cpptools"],
-  "unwantedRecommendations": ["ms-vscode.cpptools-extension-pack"]
+	"recommendations": ["ms-vscode.cpptools", "EditorConfig.EditorConfig"],
+	"unwantedRecommendations": ["ms-vscode.cpptools-extension-pack"]
 }

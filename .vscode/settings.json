@@ -1,10 +1,18 @@
 {
-  "editor.formatOnSave": true,
-  "[c]": {
-    "editor.defaultFormatter": "ms-vscode.cpptools"
-  },
-  "terminal.integrated.env.windows": {
-    "PATH": "C:\\Program Files (x86)\\Embarcadero\\Dev-Cpp\\TDM-GCC-64\\bin;${env:PATH}"
-  },
-  "C_Cpp.clang_format_style": "file"
+	// VsCode Settings
+	"editor.formatOnSave": true,
+	"files.eol": "\n",
+	"terminal.integrated.env.windows": {
+		"PATH": "C:\\Program Files (x86)\\Embarcadero\\Dev-Cpp\\TDM-GCC-64\\bin;${env:PATH}"
+	},
+	"explorer.fileNesting.expand": false,
+	"explorer.fileNesting.enabled": true,
+	"explorer.fileNesting.patterns": {
+		".gitattributes": ".gitignore"
+	},
+
+	// Language specific settings
+	"[c]": {
+		"editor.defaultFormatter": "ms-vscode.cpptools"
+	}
 }
